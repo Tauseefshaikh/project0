@@ -1,0 +1,123 @@
+@media (max-width: 400px) {
+  h1{
+    color: orange;
+    background-color: white;
+  }
+}
+@media (min-width: 600px) {
+  h1{
+    color: white;
+    background-color: #2b2b2b;
+  }
+}
+h1{
+      text-decoration:underline;
+      font-style:italic;
+      margin-top: auto;
+      text-align: center;
+}
+
+h2{
+  color: #2b2b2b;
+  font-size: 28;
+  text-decoration:underline;
+  font-weight: bolder;
+  text-align:center;
+}
+
+#para {
+  font-family:sans-serif;
+  margin-left: 20px;
+  font-size:
+}
+
+h3{
+  text-decoration: underline;
+  color: #2b2b2b;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.name{
+  font-weight: bold;
+  color: blue;
+}
+.name::selection{
+  background-color: black;
+  color: green;
+}
+
+table{
+  text-align: center;
+  border: 2px sold black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr,td,th{
+  border: 1px solid black;
+  padding: 20px;
+  width: 200px;
+}
+
+a:hover{
+  background-color: yellow;
+}
+
+#links{
+  margin-top: 50px;
+}
+
+a::before{
+  content: "\21d2"
+}
+
+ol > li{
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-decoration: underline;
+  line-height: 35px;
+  color: #2b2b2b;
+
+}
+ul{
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #2b2b2b;
+  margin-bottom: 5px;
+  line-height:25px;
+}
+
+#pd{
+  margin-left: 20px;
+  font-family: sans-serif;
+  color: #2b2b2b;
+}
+.prod{
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 10px;
+  font-size: 20px;
+  margin-left: -1px;
+  margin-top: 40px;
+}
+p::selection{
+  color: red;
+  background-color: black;
+}
+
+.row>div{
+  background-color:darkgrey;
+  font-weight: bold;
+  font-family: sans-serif;
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  column-width: auto,auto,auto;
+}
+img{
+  float: right;
+}
